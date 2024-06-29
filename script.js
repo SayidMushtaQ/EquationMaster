@@ -10,6 +10,7 @@ Form.addEventListener("submit", (e) => {
     const equation = problem.replace(/\s+/g, "");
     const [left, right] = equation.split("=");
 
+    //Handle complex - Equation
     const charToFind = "x";
     const regex = new RegExp(charToFind, "g");
     const foundIndexes = [];
