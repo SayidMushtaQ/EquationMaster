@@ -53,6 +53,7 @@ button{
     color: var(--secondary-color);
     font-size: 4rem;
     font-weight: 700;
+    color: lightcoral;
 }
 .form-container{
     display: flex;
